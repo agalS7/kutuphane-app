@@ -24,7 +24,7 @@ export default function KitapKarti({
                     </p>
                 </div>
                 <button
-                    className={`flex w-full cursor-pointer items-center justify-center gap-2 p-2 transition duration-300 ${favorideMi ? "bg-amber-400 text-amber-50" : "bg-amber-50 text-amber-900"}`}
+                    className={`flex w-full cursor-pointer items-center justify-center gap-2 p-2 transition duration-300 ${favorideMi ? "bg-amber-400 text-amber-50 hover:bg-amber-300" : "bg-amber-50 text-amber-900 hover:bg-amber-200"}`}
                     onClick={() =>
                         favorideMi ? removeFavori(id) : addFavori(id)
                     }
