@@ -1,3 +1,5 @@
+![Mini Kütüphane](https://raw.githubusercontent.com/agalS7/kutuphane-app/refs/heads/master/src/assets/mini_kutuphane.png)
+
 # 📚 Mini Kütüphane Uygulaması
 
 Bu proje, Web Teknolojileri ve Programlama dersi 2. ödev sunumu için yapılmıştır.<br>
@@ -6,7 +8,7 @@ favorilerine ekleyebilir.<br>
 
 ## 🔗 Demo Linki
 
-...
+[Bana Tıkla](https://kutuphane-app.vercel.app/)
 
 ## 💎 Özellikler
 
