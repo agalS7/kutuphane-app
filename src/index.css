@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body {
+    @apply bg-[#0f0e15] text-white/85 bg-[url(/tech-rings.svg)] bg-center bg-size-[33%] bg-no-repeat font-[Geist_Variable,sans-serif] min-h-screen;
+}
