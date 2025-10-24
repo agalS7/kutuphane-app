@@ -111,8 +111,8 @@ export default function App() {
 
     return (
         <div className="flex min-h-screen flex-col">
-            <header className="sticky top-4 z-50 mx-8 my-4 flex items-center gap-8 backdrop-blur-sm">
-                <div className="flex flex-1 items-center justify-center gap-8 rounded-full bg-[#09080d]/80 py-2 shadow-md">
+            <header className="sticky top-4 z-50 mx-8 my-4 flex items-center gap-8">
+                <div className="flex flex-1 items-center justify-center gap-8 rounded-full bg-[#09080d]/80 py-2 shadow-md backdrop-blur-sm">
                     <img src={logo} alt="logo" className="w-48" />
                 </div>
                 <a
@@ -122,7 +122,7 @@ export default function App() {
                     <img src={githubLogo} alt="github" className="size-10" />
                 </a>
             </header>
-            <div className="container mx-auto my-8 flex flex-1 items-stretch gap-1 px-4">
+            <div className="container mx-auto my-8 flex flex-1 flex-col items-stretch gap-1 px-4 sm:flex-row">
                 <KitapListe
                     kitaplar={filteredKitaplar}
                     {...{

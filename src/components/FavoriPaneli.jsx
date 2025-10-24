@@ -27,7 +27,7 @@ export default function FavoriPaneli({ kitaplar, favoriler, removeFavori }) {
                           return (
                               <div
                                   key={kitap_id}
-                                  className="flex justify-between gap-2 rounded-md bg-black/50"
+                                  className="flex flex-col justify-between gap-2 rounded-md bg-black/50 sm:flex-row"
                               >
                                   <div className="flex items-center gap-2 p-1">
                                       <img
